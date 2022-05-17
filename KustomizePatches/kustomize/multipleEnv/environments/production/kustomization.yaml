@@ -1,6 +1,6 @@
 resources:
   - ../../application
-namePrefix: nonpro-
+namePrefix: non-pro-
 configMapGenerator:
 - name: example-config
   namespace: default
