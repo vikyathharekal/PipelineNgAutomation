@@ -61,7 +61,7 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           image: {{.Values.image}}
-          imagePullPolicy: {{ .Values.pullPolicy }}
+          imagePullPolicy: always
           {{- if or .Values.env.config .Values.env.secrets}}
           envFrom:
           {{- if .Values.env.config}}
