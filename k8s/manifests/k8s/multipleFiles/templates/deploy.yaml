@@ -35,6 +35,9 @@ spec:
       containers:
       - name: nginx
         image: {{.Values.image}}
+---
+{{- end}}
+
 
 apiVersion: route.openshift.io/v1
 kind: Route
