@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: pi
 spec:
-  #ttlSecondsAfterFinished: 60
+  ttlSecondsAfterFinished: 60
   template:
     spec:
       containers:
