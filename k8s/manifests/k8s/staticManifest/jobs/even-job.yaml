@@ -9,7 +9,7 @@ spec:
       containers:
       - name: even
         image: odd-even
-	imagePullPolicy: Never
+        imagePullPolicy: Never
         command: [/even-amd64-linux]
       restartPolicy: Never
   backoffLimit: 4
