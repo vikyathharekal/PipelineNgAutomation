@@ -5,5 +5,4 @@ metadata:
   name: {{.Values.name}}-v2
 data:
 {{.Values.env.config | toYaml | indent 2}}
----
 {{- end -}}
