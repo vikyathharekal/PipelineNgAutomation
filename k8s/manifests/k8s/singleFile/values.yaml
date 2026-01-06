@@ -5,4 +5,4 @@ namespace: <+infra.namespace>
 name: <+stage.variables.resourceNamePrefix>
 
 image: <+artifact.image>
-dockercfg: <+artifact.imagePullSecret>
+#dockercfg: <+artifact.imagePullSecret>
