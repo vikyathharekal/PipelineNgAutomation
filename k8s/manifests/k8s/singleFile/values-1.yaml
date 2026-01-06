@@ -1,1 +1,1 @@
-name: <+stage.variables.resourceNamePrefix>
+# name: <+stage.variables.resourceNamePrefix>
