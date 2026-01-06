@@ -1,2 +1,2 @@
-image: <+artifact.image>
-dockercfg: <+artifact.imagePullSecret>
+# image: <+artifact.image>
+# dockercfg: <+artifact.imagePullSecret>
